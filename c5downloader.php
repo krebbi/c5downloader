@@ -14,9 +14,9 @@
  * その代わり当方では一切責任を負いません。
  */
 define("SRC_URL","http://www.concrete5.org/download_file/-/view/92910/");
-define("VERSION","Ver.5.8.0.2");
-define("FILENAME","./concrete5.8.0.2.zip");
-define("DIRNAME","./concrete5.8.0.2");
+define("VERSION","Ver.5-8.0.2");
+define("FILENAME","./concrete5-8.0.2.zip");
+define("DIRNAME","./concrete5-8.0.2");
 
 $messages = array(
     "ja" => array(
@@ -96,7 +96,9 @@ if(isset($_GET["step"])){
             exec("unzip ".FILENAME);
             exec("mv ./".DIRNAME."/* ./");
             exec("rm -rf ./".DIRNAME);
+            exec("rm -rf ./.git");
             exec("rm ./".FILENAME);
+            exec("rm ./README");
             unlink(__FILE__);
             echo json_encode(1);
             break;
