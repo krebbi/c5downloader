@@ -14,9 +14,9 @@
  * その代わり当方では一切責任を負いません。
  */
 define("SRC_URL","http://www.concrete5.org/download_file/-/view/105477/");
-define("VERSION","Ver.5-8.4.0");
-define("FILENAME","./concrete5-8.4.0.zip");
-define("DIRNAME","./concrete5-8.4.0");
+define("VERSION","Ver.5-8.4.2");
+define("FILENAME","./concrete5-8.4.2.zip");
+define("DIRNAME","./concrete5-8.4.2");
 
 $messages = array(
     "en" => array(
