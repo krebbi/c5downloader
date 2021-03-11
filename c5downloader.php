@@ -13,10 +13,10 @@
  * コピーライト以外の改変、再配布OK。個人利用の範囲で勝手に使ってOKです。
  * その代わり当方では一切責任を負いません。
  */
-define("SRC_URL","http://www.concrete5.org/download_file/-/view/108181/");
-define("VERSION","Ver.5-8.4.4");
-define("FILENAME","./concrete5-8.4.4.zip");
-define("DIRNAME","./concrete5-8.4.4");
+define("SRC_URL","http://www.concrete5.org/download_file/-/view/113632/");
+define("VERSION","Ver.5-8.5.4");
+define("FILENAME","./concrete5-8.5.4.zip");
+define("DIRNAME","./concrete5-8.5.4");
 
 $messages = array(
     "en" => array(
